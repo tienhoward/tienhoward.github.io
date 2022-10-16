@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>从Boon Lay Way, 新加坡到Givaudan, 新加坡的路线</name>
+    <NetworkLink>
+      <name>123</name>
+      <Link>
+        <href><![CDATA[https://www.google.com/maps/d/kml?forcekml=1&mid=1hkKUs2dSkbIqKUvVMKV2m1uYjFP7xxE&lid=E1uswUy0NUo]]></href>
+      </Link>
+    </NetworkLink>
+  </Document>
+</kml>

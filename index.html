@@ -20,13 +20,13 @@ function initMap() {
   const directionsService = new google.maps.DirectionsService();
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 11,
-    center: { lat: 1.328456, lng: 103.706221 },
+    
   });
 
   infoWindow = new google.maps.InfoWindow();
 
   const ctaLayer = new google.maps.KmlLayer({
-    url: "https://tienhoward.github.io/JW3.kml",
+    url: "https://tienhoward.github.io/JW5.kmz",
     map: map,
   });
   const locationButton = document.createElement("button");
@@ -100,8 +100,8 @@ function calculateAndDisplayRoute(directionsService, directionsRenderer) {
 
   directionsService
     .route({
-      origin: { lat: 1.336023, lng: 103.707314 },
-      destination: { lat: 1.336023, lng: 103.707314 },
+      origin: { lat: 1.342010, lng: 103.712632 },
+      destination: { lat: 1.341353, lng: 103.679367 },
       // Note that Javascript allows us to access the constant
       // using square brackets and a string value as its
       // "property."
